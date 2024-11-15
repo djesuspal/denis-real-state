@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Denis Jesus Palma Abanto | Real Estate Investor',
-  description: 'Denis Palma Abanto is a leading real estate investor in Peru, specializing in residential and commercial property investments across growing Peruvian markets. Learn about investment opportunities and portfolio management.',
+  description: 'Denis Palma Abanto is a leading real estate investor in Peru, specializing in residential and commercial property investments across Peru.',
   keywords: [
     'Denis Jesus Palma Abanto',
     'Denis Palma Abanto',
