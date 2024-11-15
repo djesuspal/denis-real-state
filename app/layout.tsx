@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Denis Jesus Palma Abanto | Real Estate Investor Peru',
+  title: 'Denis Jesus Palma Abanto | Real Estate Investor',
   description: 'Denis Palma Abanto is a leading real estate investor in Peru, specializing in residential and commercial property investments across growing Peruvian markets. Learn about investment opportunities and portfolio management.',
   keywords: [
     'Denis Jesus Palma Abanto',
@@ -26,13 +26,13 @@ export const metadata: Metadata = {
     telephone: true,
   },
   alternates: {
-    canonical: 'https://www.denispalma.com',
+    canonical: 'https://www.denis.pe',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.denispalma.com',
-    title: 'Denis Jesus Palma Abanto | Real Estate Investor Peru',
+    url: 'https://www.denis.pe',
+    title: 'Denis Jesus Palma Abanto | Real Estate Investor',
     description: 'Denis Palma Abanto is a leading real estate investor in Peru, specializing in residential and commercial property investments across growing markets.',
     siteName: 'Denis Jesus Palma Abanto Portfolio',
     images: [
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Denis Jesus Palma Abanto | Real Estate Investor Peru',
+    title: 'Denis Jesus Palma Abanto | Real Estate Investor',
     description: 'Denis Palma Abanto is a leading real estate investor in Peru, specializing in residential and commercial property investments.',
     images: ['/images/profile.png'],
     creator: '@denispalma',
@@ -76,7 +76,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://www.denispalma.com" />
+        <link rel="canonical" href="https://www.denis.pe" />
         {/* Structured Data for SEO */}
         <script
           type="application/ld+json"
@@ -87,10 +87,10 @@ export default function RootLayout({
               name: "Denis Jesus Palma Abanto",
               alternateName: "Denis Palma Abanto",
               jobTitle: "Real Estate Investor",
-              url: "https://www.denispalma.com",
+              url: "https://www.denis.pe",
               sameAs: [
-                "https://www.linkedin.com/in/denis-palma",
-                "https://www.instagram.com/denis.palma"
+                "https://www.linkedin.com/in/denis-jesus-palma-abanto-512417336/",
+                "https://www.instagram.com/denisj.palma/"
               ],
               address: {
                 "@type": "PostalAddress",
