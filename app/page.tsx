@@ -104,6 +104,7 @@ export default function LandingPage() {
           <Image
             src="/images/logo.png"
             alt="Denis Jesus Palma Abanto"
+	    title="Denis Jesus Palma Abanto"
             width={180}
             height={48}
             priority
